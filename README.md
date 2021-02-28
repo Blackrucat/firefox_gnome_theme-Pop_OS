@@ -1,20 +1,25 @@
 <h1 align="center">
-	<img src="icon.svg" alt="Firefox GNOME theme" width="100" height="100"/><br>
+	<img src="icon.svg" alt="Firefox GNOME Pop!_OS! theme" width="100" height="100"/><br>
  Firefox GNOME theme
 </h1>
 
-[![GitHub](https://img.shields.io/github/license/rafaelmardojai/firefox-gnome-theme.svg)](https://github.com/rafaelmardojai/firefox-gnome-theme/blob/master/LICENSE)
-[![Donate](https://img.shields.io/badge/PayPal-Donate-gray.svg?style=flat&logo=paypal&colorA=0071bb&logoColor=fff)](https://paypal.me/RafaelMardojaiCM)
+<p align="center"><strong>A Firefox GNOME Pop!_OS! theme</strong></p>
 
-<p align="center"><strong>A GNOME theme for Firefox</strong></p>
+<p align="center">Active tab.</p>
 
-<p align="center">This theme follows lastest GNOME Adwaita style.</p>
+![image](https://user-images.githubusercontent.com/56588184/109405529-43fe0e80-7950-11eb-8a10-ff67d707d46a.png)
 
-![Screenshot of the theme](screenshot.png)
+<p align="center">Inactive tab.</p>
+
+![image](https://user-images.githubusercontent.com/56588184/109405646-4dd44180-7951-11eb-8328-900c8eb530d7.png)
+
+<p align="center">This theme follows lastest GNOME Pop!_OS style.</p>
+
+
 
 ## Description
 
-This is a bunch of CSS code to make Firefox look closer to GNOME's native apps.
+This is a bunch of CSS code to make Firefox look closer to GNOME's Pop!_OS! native apps.
 
 This theme is supposed to work with current supported Firefox releases:
 
@@ -28,7 +33,7 @@ This theme is supposed to work with current supported Firefox releases:
 ### Installation script
 1. Clone this repo and enter folder:
 	```sh
-	git clone https://github.com/rafaelmardojai/firefox-gnome-theme/ && cd firefox-gnome-theme
+	git clone https://github.com/Blackrucat/firefox_gnome_theme-Pop_OS && cd firefox_gnome_theme-Pop_OS
 	```
 
 2. Run installation script:
@@ -54,7 +59,7 @@ This theme is supposed to work with current supported Firefox releases:
 
 You can also install this theme with one command:
 
-`curl -s -o- https://raw.githubusercontent.com/rafaelmardojai/firefox-gnome-theme/master/scripts/install-by-curl.sh | bash`
+`curl -s -o- https://raw.githubusercontent.com/Blackrucat/firefox_gnome_theme-Pop_OS/master/scripts/install.sh | bash`
 
 It will download the latest version of the theme and run the installation script for you.
 
@@ -75,7 +80,7 @@ It will download the latest version of the theme and run the installation script
 5. Clone this repo to a subdirectory:
 
 	```sh
-	git clone https://github.com/rafaelmardojai/firefox-gnome-theme.git
+	git clone https://github.com/Blackrucat/firefox_gnome_theme-Pop_OS.git
 	```
 
 6. Create single-line user CSS files if non-existent or empty (at least one line is needed for `sed`):
