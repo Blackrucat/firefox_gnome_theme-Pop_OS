@@ -30,96 +30,18 @@ This theme is supposed to work with current supported Firefox releases:
 - Firefox 87 Nightly
 
 ## Installation
+1 - Download the files and extract them
+![image](https://user-images.githubusercontent.com/56588184/109405937-cfc56a00-7953-11eb-879e-56231aeef139.png)
+2 - search `about:profile` on your browser URL bar
+3 - find out which profile is being used on firefox and the copy or open the root folder
+![image](https://user-images.githubusercontent.com/56588184/109405887-6cd3d300-7953-11eb-947b-0075afa2d54d.png)
+4 - if it doesn't exist create a folder called `chrome` inside of the firefox root folder
+5 - Put those tree files on the root folder 
+![image](https://user-images.githubusercontent.com/56588184/109405759-aeb04980-7952-11eb-834f-151585a857ca.png)
+''
+6 - restart firefox or open if it's closed 
 
-### Installation script
-1. Clone this repo and enter folder:
-	```sh
-	git clone https://github.com/Blackrucat/firefox_gnome_theme-Pop_OS && cd firefox_gnome_theme-Pop_OS
-	```
 
-2. Run installation script:
-	```sh
-	./scripts/install.sh # Standard
-	./scripts/install.sh -f ~/.var/app/org.mozilla.firefox/.mozilla/firefox # Flatpak
-	```
-
-#### Script options
-- `-f <firefox_folder_path>` *optional*
-	- Set custom Firefox folder path, for example `~/.mozilla/icecat/`.
-	- Default: `~/.mozilla/firefox/`
-
-- `-p <profile_name>` *optional*
-	- Set custom profile name, for example `e0j6yb0p.default-nightly`.
-	- Default: standard default profile
-- `-t <theme_name>` *optional*
-	- Set the colors used in the theme.
-	- Default: Adwaita.
-	- Options: `adwaita`, `maia`, `yaru`.
-	
-### One command curled script
-
-You can also install this theme with one command:
-
-`curl -s -o- https://raw.githubusercontent.com/Blackrucat/firefox_gnome_theme-Pop_OS/master/scripts/install.sh | bash`
-
-It will download the latest version of the theme and run the installation script for you.
-
-### Manual installation
-1. Go to `about:support` in Firefox.
-
-2. Application Basics > Profile Directory > Open Directory.
-
-3. Open directory in a terminal.
-
-4. Create a `chrome` directory if it doesn't exist:
-
-	```sh
-	mkdir -p chrome
-	cd chrome
-	```
-
-5. Clone this repo to a subdirectory:
-
-	```sh
-	git clone https://github.com/Blackrucat/firefox_gnome_theme-Pop_OS.git
-	```
-
-6. Create single-line user CSS files if non-existent or empty (at least one line is needed for `sed`):
-
-	```sh
-	[[ -s userChrome.css ]] || echo >> userChrome.css
-	```
-
-7. Import this theme at the beginning of the CSS files (all `@import`s must come before any existing `@namespace` declarations):
-
-	```sh
-	sed -i '1s/^/@import "firefox-gnome-theme\/userChrome.css";\n/' userChrome.css
-	```
-
-8. Symlink preferences file:
-
-	```sh
-	ln -s chrome/firefox-gnome-theme/configuration/user.js ../user.js
-	```
-
-9. Restart Firefox.
-
-10. Open Firefox customization panel and move the new tab button to headerbar.
-
-11. Be happy with your new gnomish Firefox.
-
-## Updating
-Both manual and script installation methods should create a git clone in `your-profile-folder-path/chrome/firefox-gnome-theme`, so the easiet way to update the theme is to open this folder in terminal and perform a git pull.
-
-```sh
-git pull origin master
-```
-
-> Note: You can also run the installation script again to update (after cloning again the repo).
-
-## Uninstalling
-1. Go to your profile folder. (Go to `about:support` in Firefox > Application Basics > Profile Directory > Open Directory)
-2. Remove `chrome` folder.
 
 ## Scrollbars
 To achieve Firefox with overlay scrollbars install [firefox-gnome-scrollbars](https://github.com/rafaelmardojai/firefox-gnome-scrollbars).
