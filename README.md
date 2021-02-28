@@ -11,7 +11,8 @@
 
 <p align="center">Inactive tab.</p>
 
-![image](https://user-images.githubusercontent.com/56588184/109405646-4dd44180-7951-11eb-8328-900c8eb530d7.png)
+![image](https://user-images.githubusercontent.com/56588184/109405697-ed91cf80-7951-11eb-86eb-783b934db9df.png)
+
 
 <p align="center">This theme follows lastest GNOME Pop!_OS style.</p>
 
