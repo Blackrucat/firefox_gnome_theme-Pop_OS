@@ -31,15 +31,21 @@ This theme is supposed to work with current supported Firefox releases:
 
 ## Installation
 1 - Download the files and extract them
+
 ![image](https://user-images.githubusercontent.com/56588184/109405937-cfc56a00-7953-11eb-879e-56231aeef139.png)
+
 2 - search `about:profile` on your browser URL bar
 3 - find out which profile is being used on firefox and the copy or open the root folder
+
 ![image](https://user-images.githubusercontent.com/56588184/109405887-6cd3d300-7953-11eb-947b-0075afa2d54d.png)
+
 4 - if it doesn't exist create a folder called `chrome` inside of the firefox root folder
 5 - Put those tree files on the root folder 
+
 ![image](https://user-images.githubusercontent.com/56588184/109405759-aeb04980-7952-11eb-834f-151585a857ca.png)
 ''
 6 - search `about:config` on your browser URL bar and then set toolkit.legacyUserProfileCustomizations.stylesheets to true (default is false)
+
 ![image](https://user-images.githubusercontent.com/56588184/109700673-d4b33500-7b70-11eb-9899-2e91e27d08a2.png)
 
 7 - restart firefox or open if it's closed 
