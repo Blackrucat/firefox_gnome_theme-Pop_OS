@@ -39,7 +39,10 @@ This theme is supposed to work with current supported Firefox releases:
 5 - Put those tree files on the root folder 
 ![image](https://user-images.githubusercontent.com/56588184/109405759-aeb04980-7952-11eb-834f-151585a857ca.png)
 ''
-6 - restart firefox or open if it's closed 
+6 - search `about:config` on your browser URL bar and then set toolkit.legacyUserProfileCustomizations.stylesheets to true (default is false)
+![image](https://user-images.githubusercontent.com/56588184/109700673-d4b33500-7b70-11eb-9899-2e91e27d08a2.png)
+
+7 - restart firefox or open if it's closed 
 
 
 
